@@ -1,13 +1,18 @@
 import React from "react";
-import "./App.css";
+//Router
+import { BrowserRouter } from "react-router-dom";
+import { Route } from "react-router";
+// Custom Root Component
 import RootRouter from "./components/RootRouter";
 
-function App() {
+const App = () => {
   return (
     <>
-      <Route component={RootRouter} />
+      <BrowserRouter>
+        <Route component={RootRouter} />
+      </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
