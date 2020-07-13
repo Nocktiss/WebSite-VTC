@@ -1,16 +1,15 @@
 import React, { useState, useRef } from "react";
-import { ThemeProvider } from "styled-components";
 import { NavLink, Link } from "react-router-dom";
-import FocusLock from "react-focus-lock";
-
-import { RT_HOME, RT_PRICE, RT_SERVICE } from "../../../config/_constants";
+import { ThemeProvider } from "styled-components";
 import { useTranslation } from "react-i18next";
-
 import styled from "styled-components";
+import FocusLock from "react-focus-lock";
+// Utils
+import { RT_HOME, RT_PRICE, RT_SERVICE } from "../../../config/_constants";
+// Custom components
 import { Menu, Burger } from "./BurgerMenu";
 import { GlobalStyles } from "../../../global";
 import { theme } from "../../../theme";
-// import { slide as Menu } from "react-burger-menu";
 
 const Navigation = styled.header`
   width: 100%;

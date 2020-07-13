@@ -1,7 +1,9 @@
 import React from "react";
+// Routes
 import { Router, Route, Switch } from "react-router-dom";
+// Utils
 import { RT_HOME, RT_PRICE, RT_SERVICE } from "../config/_constants";
-
+// Custom Components
 import history from "./history";
 import HomeRouter from "./HomePage/HomeRouter";
 import ServiceRouter from "./ServicePage/ServiceRouter";

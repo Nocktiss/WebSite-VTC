@@ -1,13 +1,15 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { bool } from "prop-types";
-import { StyledMenu } from "./Menu.styled";
+// Utils
 import {
   RT_HOME,
   RT_SERVICE,
   RT_PRICE,
 } from "../../../../../config/_constants";
-import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+// Custom Components
+import { StyledMenu } from "./Menu.styled";
 
 const Menu = ({ open, ...props }) => {
   const { t } = useTranslation();
