@@ -1,4 +1,9 @@
 {
   "tell_me_more": "En savoir plus",
-  "name_title": "NocktiGames"
+  "name_title": "WEB VTC",
+  "menu": {
+    "home": "Accueil",
+    "service": "Services",
+    "price": "Tarifs"
+  }
 }
