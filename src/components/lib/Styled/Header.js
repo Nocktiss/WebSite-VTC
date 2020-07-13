@@ -6,10 +6,10 @@ const styles = {
     color: "white",
     fontSize: "45px",
     fontWeight: "bold",
-    background: "linear-gradient(45deg, #4774a1 10%, grey 90%)",
+    background: "rgb(1, 0, 0)",
     // borderRadius: "40px 40px 0px 40px",
-    padding: "20px",
-    boxShadow: "0 3px 5px 2px rgb(190, 196, 199)",
+    padding: "15px",
+    boxShadow: "0 3px 5px 2px rgb(1, 0, 0)",
     weight: "100vw",
   },
 };
