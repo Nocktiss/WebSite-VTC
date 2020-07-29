@@ -7,11 +7,11 @@ import RootRouter from "./components/RootRouter";
 
 const App = () => {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Route component={RootRouter} />
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 

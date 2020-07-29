@@ -7,15 +7,12 @@ import { withStyles } from "@material-ui/core/styles";
 // We can inject some CSS into the DOM.
 const styles = {
   root: {
-    background: "linear-gradient(45deg, orange 10%, #FF8E53 90%)",
-    borderRadius: 3,
+    background: "#222",
     border: 0,
-    // top: '80vh',
-    color: "black",
+    color: "white",
     height: 30,
     fontWeight: "bold",
     padding: "0 20px",
-    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
   },
 };
 
