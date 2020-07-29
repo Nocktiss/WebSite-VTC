@@ -1,9 +1,22 @@
 {
   "tell_me_more": "En savoir plus",
   "name_title": "WEB VTC",
+  "form": {
+    "calendar": "Calendrier",
+    "contact_reservation": "Contact et Reservation",
+    "form_contact": "Formulaire de contact",
+    "information": "Informations",
+    "phone_number": "Numéro de téléphone",
+    "quote": "Devis",
+    "request": "Votre demande",
+    "reservation": "Reservation"
+  },
   "menu": {
     "home": "Accueil",
     "service": "Services",
-    "price": "Tarifs"
-  }
+    "price": "Tarifs",
+    "reservations": "Reservations",
+    "contact_us": "Contactez-nous"
+  },
+  "send": "Envoyer"
 }

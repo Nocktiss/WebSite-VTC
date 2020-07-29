@@ -6,7 +6,7 @@ import { RT_SERVICE } from "../../config/_constants";
 // Custom components
 import Home from "./Home";
 
-const NewsRouter = () => {
+const ServiceRouter = () => {
   return (
     <Switch>
       <Route path={RT_SERVICE} component={Home} exact={true} />
@@ -14,4 +14,4 @@ const NewsRouter = () => {
   );
 };
 
-export default NewsRouter;
+export default ServiceRouter;

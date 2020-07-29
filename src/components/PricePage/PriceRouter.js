@@ -6,7 +6,7 @@ import { RT_PRICE } from "../../config/_constants";
 // Custom components
 import Home from "./Home";
 
-const ForumRouter = () => {
+const PriceRouter = () => {
   return (
     <Switch>
       <Route path={RT_PRICE} component={Home} exact={true} />
@@ -14,4 +14,4 @@ const ForumRouter = () => {
   );
 };
 
-export default ForumRouter;
+export default PriceRouter;
