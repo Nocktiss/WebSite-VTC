@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const StyledBurger = styled.button`
-  z-index: 1;
   position: absolute;
-  top: 5%;
-  right: 2rem;
+  top: 7%;
+  right: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

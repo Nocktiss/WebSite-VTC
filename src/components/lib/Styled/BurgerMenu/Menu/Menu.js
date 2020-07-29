@@ -7,6 +7,8 @@ import {
   RT_HOME,
   RT_SERVICE,
   RT_PRICE,
+  RT_RESERVATION,
+  RT_CONTACT,
 } from "../../../../../config/_constants";
 // Custom Components
 import { StyledMenu } from "./Menu.styled";
@@ -37,6 +39,12 @@ const Menu = ({ open, ...props }) => {
       </NavLink>
       <NavLink to={RT_PRICE} tabIndex={tabIndex}>
         <p>{t("menu.price")}</p>
+      </NavLink>
+      <NavLink to={RT_RESERVATION} tabIndex={tabIndex}>
+        <p>{t("menu.reservations")}</p>
+      </NavLink>
+      <NavLink to={RT_CONTACT} tabIndex={tabIndex}>
+        <p>{t("menu.contact_us")}</p>
       </NavLink>
     </StyledMenu>
   );
